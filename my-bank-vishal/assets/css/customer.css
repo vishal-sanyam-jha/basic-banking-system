@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(233, 74, 74);
+}
+.mbody
+{
+background-color: rgb(196, 114, 15);
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #fff!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: rgb(48, 2, 2)!important;
+}
+
+.nav-link{
+    color: #2d5d97!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #3a1111;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(209, 240, 152)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(35, 43, 110)!important;
+}
+.modal-dialog{
+    margin-top: 50px;
+}

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+html{
+    padding: 0;
+    margin: 0;
+}
+.about
+{
+    padding-top: 400px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(244, 248, 246);
+}
+/* bubble animation */
+.bubble img 
+{
+    width: 40px;
+    animation: buble 7s linear infinite;
+}
+.bubble{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -50px;
+
+}
+@keyframes buble{
+   0% {
+          transform: translateY(0);
+          opacity: 0;
+    }
+    50% {
+        
+        opacity: 1;
+  }
+  75% {
+   
+    opacity: 1;
+}
+100% {
+    transform: translateY(-80vh);
+    opacity: 0;
+}
+
+
+}
+.bubble img:nth-child(1)
+{
+    animation-delay: 2s;
+    width: 35px;
+}
+.bubble img:nth-child(2)
+{
+    animation-delay: 1s;
+    width: 40px;
+}
+.bubble img:nth-child(3)
+{
+    animation-delay: 3.3s;
+    width: 60px;
+}
+.bubble img:nth-child(4)
+{
+    animation-delay: 4.5s;
+    width: 30px;
+}
+.bubble img:nth-child(5)
+{
+    animation-delay: 2s;
+    width: 25px;
+}
+.bubble img:nth-child(6)
+{
+    animation-delay: 3s;
+    width: 40px;
+}
+.bubble img:nth-child(7)
+{
+    animation-delay: 1s;
+    width: 40px;
+}
+.bubble img:nth-child(8)
+{
+    animation-delay: 8s;
+    width: 35px;
+}
+.bubble img:nth-child(9)
+{
+    animation-delay: 1s;
+    width: 27px;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #6fc1d8 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: rgb(88, 63, 8)!important;
+}
+#sp{
+    color: #085f14;
+}
+.navbar-brand{
+    font-family: 'Roboto';
+    font-size: 1.40rem;
+    color: #eedfdc!important;
+ 
+    
+}
+
+.nav-link{
+    color: #b82074!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #a71b1b;
+
+}
+/* navbar css ends here  */
+
+
+
+.hero-img{
+   
+    padding-top: 20px;
+    height: 50%;
+    width: 100%;
+    
+
+    
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: rgb(175, 82, 82);
+    color: #039be5!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #4e9bc4;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #1aa778;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #7825bd67;
+    color: #fff!important;
+    transition: 0.3s;
+}
+.btn{
+    border: black;
+   margin: 10px;
+   padding: 20px;
+    border-radius: 5000px;
+    background-color: #e4f1e3!important;
+    color: rgb(12, 11, 11)!important;
+}
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.google{
+    color: #D44638;
+}
+
+/* footer css ends here  */
